@@ -1,0 +1,278 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@font-face {
+    font-family: FonteLogo;
+    src: url('LEGENDAS/glitter-candy.otf');
+}
+/*h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}*/
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+/*a:hover {
+    text-transform: underline;
+}*/
+
+                                /* CABECALHO */
+
+img#icone {
+    position: absolute;
+    left: 959px;
+    top: 60px;
+    width: 304px;
+    height: 142px;
+}
+img#iconecabecalho {
+    position: absolute;
+    top: -60px;
+    width: 430px;
+    height: 430px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 173px;
+}
+header#cabecalho h1 {
+    font-family: FonteLogo;
+    font-size: 26pt;
+    color: rgba(151, 151, 151, .8);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    font-family: 'Londrina Solid';
+    font-size: 16pt;
+    color: rgba(12, 12, 12, 0.6);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+                                     /* CORPO */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-image: url("IMAGENS/fundo3.png");
+    background-color: rgba(196, 196, 196, 0.9);
+    color: black;
+}
+
+                        /* INTERFACE DO CORPO */
+
+div#interface {
+    width: 1150px;
+    background-color: rgba(246, 251, 255, 0.9);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 12px;
+}
+
+                          /* FOTO COM LEGENDA */
+
+figure.foto-legenda {
+    /*width: 40%;
+    height: 40%;*/
+    display: inline-block;
+    position: relative;
+    border: 8px solid rgba(196, 196, 196, 0.3);
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+                                 /* MENU */
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    font-size: 20px;
+    font-family: 'IM Fell English SC';
+    list-style: none;
+    text-transform: lowercase;
+    position: absolute;
+    top: -20px;
+    left: 710px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgba(192, 201, 211, 0.9);
+    padding: 5px;
+    margin: 2px;
+    transition: 1s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+nav#menu li:hover {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #fff;
+}
+
+           /* CORPO DIVISORIO LATERAL E RODAPE */
+
+section#corpo {
+    display: block;
+    width: 680px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+article#noticiaprincipal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #cecece;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'Londrina Solid';
+    font-size: 23pt;
+    color: #353030;
+    text-shadow: 1px 1px 1px 1px black;
+    margin-top: -20px;
+}
+.direita {
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+header#cabecalho-artigo h2 {
+    font-family: FonteLogo;
+    font-size: 15pt;
+    color: #9e9e9e;
+    background-color: rgba(246, 251, 255, 0.9);
+    margin-bottom: 0px;
+    margin-top: -30px;
+    text-shadow: 1px 1px 1px 1px black;
+}
+header#cabecalho-artigo h3 {
+    font-size: 19px;
+    color: #afa8a8;
+    font-family: 'IM Fell English SC'; 
+    text-shadow: 1px 1px 1px 1px black;
+}
+
+table#tabelaspec {
+    top: -100px;
+    border: 1px solid #606060;
+    border-spacing: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tabelaspec td.ce {
+    color: aliceblue;
+    background-color: #353030;
+    vertical-align: top;
+    font-weight: bold;
+}
+#tabelaspec td.cd {
+    background-color: #dbdbdb;
+}
+#tabelaspec caption span {
+    color: #888888;
+    display: block;
+    float: right;
+    font-size: 8pt;
+}
+/*table#tabeladata {
+    top: -100px;
+    border: 1px solid #606060;
+    border-spacing: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}*/
+                                 /* LATERAL */
+aside#lateral {
+    display: block;
+    width: 430px;
+    float: right;
+    background-color: aliceblue;
+    padding: 10px;
+    /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 0px;*/
+}
+aside#lateral h1 {
+    font-family: FonteLogo;
+    font-size: 22pt;
+    color: #353030;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: rgba(198, 198, 198, 0.9);
+    font-size: 14pt;
+    color: #5e5e5e;
+    padding: 5px;
+}
+
+footer#rodape p{
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#tabelaspec th {
+    text-align: right;
+}
+
+                        /* FOTO CAiXA  */
+
+#fotocaixa {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    top: 600px;
+}

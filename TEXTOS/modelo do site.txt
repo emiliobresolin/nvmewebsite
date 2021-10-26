@@ -1,0 +1,58 @@
+Sua SSD importada
+
+[aqui entra uma IMAGEM]
+
+Menu Principal
+- Home
+- Especificações
+- Fotos
+- Multimídia
+- Fale conosco
+
+Tecnologia > Inovações
+Saiba tudo sobre as SSD NVME M.2
+por Emilio Bresolin
+Atualizado em 14/out/2021
+
+O que é
+O M.2 NVMe é um protocolo de transmissão e acesso de dados em formato SSD, entregando um desempenho muito superior aos seus predecessores. Sua diferença substancial é a possibilidade de conexão via bus PCI Express da placa-mãe do computador.
+
+[aqui entra uma IMAGEM]
+
+Datas de chegada
+As SSD importadas demoram em torno de 60 dias para chegada, mas nossa equipe disponibiliza de um estoque de até 10 peças que tem a função de suprir a demanda de pedidos até a chegada do proximo pacote.
+
+Especificações tecnicas
+Capacidade: 800GB
+Fator de forma: M.2 2280
+Interface: NVMe PCIe 3.0 x4
+Performance: Leitura sequencial (128 KB, QD32) 3.100MB/s
+Gravação sequencial (128 KB, QD32): 1.000MB/s
+Leitura aleatória (4KB, QD256): 375.000 IOPS
+Gravação Aleatória (4KB, QD256): 70.000 IOPS
+Terabytes gravados (TBW): 988TB
+Gravações de unidade por dia (DWPD): 0,68
+Tempo médio entre falhas (MTBF): 1,8 milhões de horas
+Taxa de erro de bit incorrigível (UBER): <1 setor por 10 bits lidos
+Proteção contra perda de energia: Não
+Consumo de energia: Tensão de alimentação 3,3 V (± 5%)
+Leitura ativa (típico): 4,5W
+Gravação ativa (típica): 4,5W
+Ocioso: 2,0W
+Notas: O consumo de energia pode variar de acordo com as configurações e plataformas.
+Temperatura de operação: 0°C a 70°C (32°F a 158°F)
+Temperatura de armazenamento: -40°C a 85°C (-40°F a 185°F)
+Tamanho (altura x largura x profundidade): 3,5 mm x 22 mm x 80 mm
+
+[aqui entra um VIDEO]
+
+Outras Notícias
+Video mais recente
+
+[aqui entra um VIDEO]
+
+Novidades sobre SSD
+Experimente o desempenho e a confiabilidade que você só pode obter da marca número um do mundo em memória flash desde 2003. Todos os firmware e componentes, incluindo os mundialmente renomados DRAM e NAND da Samsung, são produzidos internamente, permitindo integração de ponta a ponta com qualidade na qual você pode confiar.
+
+Copywrite 2021 - by EMILIO BRESOLIN
+Facebook | Instagram
